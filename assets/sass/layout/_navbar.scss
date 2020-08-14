@@ -1,0 +1,49 @@
+.navegation {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.navegation__logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.navegation__menu {
+  text-align: right;
+  float: right;
+}
+
+.navegation__menu ul {
+  margin: 0;
+}
+
+.navegation__menu ul li {
+  display: inline-block;
+}
+
+.navegation__menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navegation__menu__input {
+  border-radius: 30px;
+}
+
+#navigation__menu__item__us {
+  display: none;
+
+  @include respond-to("medium") {
+    display: inline-block;
+  }
+
+  @include respond-to("large") {
+    display: inline-block;
+  }
+
+  @include respond-to("extralarge") {
+    display: inline-block;
+  }
+}
